@@ -92,17 +92,17 @@ class FlutterDeveloper {
 
 <!-- Streak Stats -->
 <a href="https://github.com/Omar-Yasser-Mohamed">
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Omar-Yasser-Mohamed&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=Omar-Yasser-Mohamed&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </a>
 
 <!-- GitHub Stats -->
 <a href="https://github.com/Omar-Yasser-Mohamed">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Omar-Yasser-Mohamed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Omar-Yasser-Mohamed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </a>
 
 <!-- Top Languages -->
 <a href="https://github.com/Omar-Yasser-Mohamed">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omar-Yasser-Mohamed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top Languages" />
+  <img width="40%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Omar-Yasser-Mohamed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top Languages" />
 </a>
 
 <!-- GitHub Activity Graph -->
@@ -120,6 +120,8 @@ class FlutterDeveloper {
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Omar-Yasser-Mohamed&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="GitHub Trophies" />
 </div>
+
+> **Note:** If trophies don't load, deploy your own instance of [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy).
 
 ---
 
@@ -142,10 +144,10 @@ class FlutterDeveloper {
 <div align="center">
 
 <a href="https://github.com/Omar-Yasser-Mohamed/Marketi">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Omar-Yasser-Mohamed&repo=Marketi&theme=tokyonight&hide_border=true&border_radius=10" alt="Marketi" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Omar-Yasser-Mohamed&repo=Marketi&theme=tokyonight&hide_border=true&border_radius=10" alt="Marketi" />
 </a>
 <a href="https://github.com/Abdalla-Ahmed-Aly/GuideMe">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abdalla-Ahmed-Aly&repo=GuideMe&theme=tokyonight&hide_border=true&border_radius=10" alt="GuideMe" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Abdalla-Ahmed-Aly&repo=GuideMe&theme=tokyonight&hide_border=true&border_radius=10" alt="GuideMe" />
 </a>
 
 </div>
@@ -154,7 +156,7 @@ class FlutterDeveloper {
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| 🛒 **[Marketi](https://github.com/Omar-Yasser-Mohamed/Marketi)** | E-Commerce mobile application | `Flutter` `Dart` `Firebase` |
+| 🛒 **[Marketi](https://github.com/Omar-Yasser-Mohamed/Marketi)** | E-Commerce mobile application | `Flutter` `Dart` `REST API` |
 | 🗺️ **[GuideMe](https://github.com/Abdalla-Ahmed-Aly/GuideMe)** | Smart guide & navigation app | `Flutter` `Dart` `APIs` |
 
 </div>
