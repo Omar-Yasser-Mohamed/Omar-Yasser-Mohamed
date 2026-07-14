@@ -104,19 +104,24 @@ class FlutterDeveloper {
   <img width="70%" src="https://streak-stats.demolab.com/?user=Omar-Yasser-Mohamed&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </a>
 
-<br><br>
+<br>
 
 <!-- GitHub Stats + Top Languages Side by Side -->
 <a href="https://github.com/Omar-Yasser-Mohamed">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Omar-Yasser-Mohamed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Omar-Yasser-Mohamed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true&height=195" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/Omar-Yasser-Mohamed">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Omar-Yasser-Mohamed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Omar-Yasser-Mohamed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8&height=195" alt="Top Languages" />
 </a>
+</div>
 
-<br><br>
+---
 
-<!-- GitHub Activity Graph -->
+<!-- Contribution Activity Graph Section -->
+## 📈 Contribution Activity
+
+<div align="center">
+
 <a href="https://github.com/Omar-Yasser-Mohamed">
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Omar-Yasser-Mohamed&theme=tokyo-night&hide_border=true&border_radius=10&area=true" alt="Contribution Graph" />
 </a>
