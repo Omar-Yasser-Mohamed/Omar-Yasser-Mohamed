@@ -30,8 +30,6 @@ class FlutterDeveloper {
   final String language = "Dart 💙";
 
   final Map<String, List<String>> skills = {
-
-    
     "state_management": ["BLoC", "Cubit", "Provider"],
     "architecture":     ["Clean Architecture", "MVVM"],
     "networking":       ["Dio", "Retrofit", "REST APIs"],
