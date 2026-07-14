@@ -27,12 +27,23 @@
 class FlutterDeveloper {
   final String name = "Omar Yasser";
   final String role = "Flutter Developer";
-  final List<String> languages = ["Dart"];
-  
-  final Map<String, dynamic> currentFocus = {
-    "learning": "Advanced Flutter Architecture",
-    "building": "Cross-Platform Mobile Applications",
-    "exploring": "Clean Architecture & Design Patterns",
+  final String language = "Dart 💙";
+
+  final Map<String, List<String>> skills = {
+
+    
+    "state_management": ["BLoC", "Cubit", "Provider"],
+    "architecture":     ["Clean Architecture", "MVVM"],
+    "networking":       ["Dio", "Retrofit", "REST APIs"],
+    "local_storage":    ["Hive", "SharedPreferences", "SQLite"],
+    "tools":            ["Git", "Firebase", "Postman", "Figma"],
+  };
+
+  final Map<String, String> currentFocus = {
+    "🔨 building":   "Scalable Cross-Platform Mobile Apps",
+    "📚 learning":   "Advanced Animations & Performance Optimization",
+    "🏗️ exploring":  "CI/CD Pipelines & Automated Testing",
+    "🤝 open_to":    "Collaborating on Open Source Flutter Projects",
   };
 
   String toString() => "Passionate about crafting beautiful mobile experiences ✨";
@@ -90,20 +101,22 @@ class FlutterDeveloper {
 
 <div align="center">
 
-<!-- Streak Stats -->
+<!-- Streak Stats - Full Width -->
 <a href="https://github.com/Omar-Yasser-Mohamed">
-  <img width="49%" src="https://streak-stats.demolab.com/?user=Omar-Yasser-Mohamed&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
+  <img width="70%" src="https://streak-stats.demolab.com/?user=Omar-Yasser-Mohamed&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </a>
 
-<!-- GitHub Stats -->
+<br><br>
+
+<!-- GitHub Stats + Top Languages Side by Side -->
 <a href="https://github.com/Omar-Yasser-Mohamed">
   <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Omar-Yasser-Mohamed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </a>
-
-<!-- Top Languages -->
 <a href="https://github.com/Omar-Yasser-Mohamed">
-  <img width="40%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Omar-Yasser-Mohamed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Omar-Yasser-Mohamed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=8" alt="Top Languages" />
 </a>
+
+<br><br>
 
 <!-- GitHub Activity Graph -->
 <a href="https://github.com/Omar-Yasser-Mohamed">
@@ -114,43 +127,19 @@ class FlutterDeveloper {
 
 ---
 
-<!-- GitHub Trophies -->
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Omar-Yasser-Mohamed&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="GitHub Trophies" />
-</div>
-
-> **Note:** If trophies don't load, deploy your own instance of [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy).
-
----
-
 <!-- Snake Animation -->
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Omar-Yasser-Mohamed/Omar-Yasser-Mohamed/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Omar-Yasser-Mohamed/Omar-Yasser-Mohamed/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Omar-Yasser-Mohamed/Omar-Yasser-Mohamed/output/github-snake-dark.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/Omar-Yasser-Mohamed/Omar-Yasser-Mohamed/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
+
+> ⚠️ **To activate the snake:** Push this repo → Go to **Actions** tab → **Generate Snake Animation** → Click **Run workflow**. The snake appears after the first run.
 
 ---
 
 <!-- Featured Projects Section -->
 ## 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/Omar-Yasser-Mohamed/Marketi">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Omar-Yasser-Mohamed&repo=Marketi&theme=tokyonight&hide_border=true&border_radius=10" alt="Marketi" />
-</a>
-<a href="https://github.com/Abdalla-Ahmed-Aly/GuideMe">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Abdalla-Ahmed-Aly&repo=GuideMe&theme=tokyonight&hide_border=true&border_radius=10" alt="GuideMe" />
-</a>
-
-</div>
 
 <div align="center">
 
