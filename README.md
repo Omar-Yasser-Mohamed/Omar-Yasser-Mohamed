@@ -137,8 +137,6 @@ class FlutterDeveloper {
   <img src="https://raw.githubusercontent.com/Omar-Yasser-Mohamed/Omar-Yasser-Mohamed/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
-> ⚠️ **To activate the snake:** Push this repo → Go to **Actions** tab → **Generate Snake Animation** → Click **Run workflow**. The snake appears after the first run.
-
 ---
 
 <!-- Featured Projects Section -->
