@@ -147,49 +147,34 @@ class FlutterDeveloper {
 
 <br>
 
-> A full-featured event ecosystem that connects people with memorable experiences and gives organizers the tools to create, manage, and grow successful events.
+> A full-featured event platform that connects attendees with memorable experiences while giving organizers the tools to create, manage, and monitor their events.
 
-Evanto is a cross-platform mobile application built for the complete event journey, from discovering a local concert or conference to receiving a digital ticket and checking in at the venue. The app delivers two tailored experiences in one polished product: an intuitive attendee app for discovering and booking events, and a powerful organizer suite for managing events, tracking performance, and validating tickets in real time.
+Evanto is a cross-platform Flutter application built around the complete event journey — from discovering nearby events and booking tickets to receiving digital QR passes and checking in at the venue.
 
-#### 📱 Attendee Experience
+### ✨ Highlights
 
-- **Smart event discovery** - Curated feeds, featured events, trending experiences, popular organizers, and category-based browsing make it easy to find something worth attending.
-- **Location-aware exploration** - OpenStreetMap integration, GPS-based discovery, and interactive event pins help attendees discover events nearby.
-- **Flexible ticket booking** - Attendees can choose between VIP, Early Bird, and General Admission tickets with live capacity tracking, quantity controls, and instant price calculations.
-- **Digital QR passports** - Every booking generates a digital QR pass containing the relevant ticket details for quick and convenient venue access.
-- **Real-time communication** - Attendees can chat directly with organizers and share image attachments through a Firestore-powered messaging experience.
-- **Notifications and activity updates** - Booking confirmations, event announcements, schedule changes, and other important updates are delivered through push and local notifications.
+* 🔎 **Smart Event Discovery** — Browse featured, trending, and category-based events with search and personalized exploration.
+* 📍 **Location-Based Discovery** — Discover nearby events using OpenStreetMap, GPS, and interactive map markers.
+* 🎟️ **Flexible Ticketing** — Support multiple ticket types, live availability, quantity selection, and automatic price calculation.
+* 🎫 **Digital QR Tickets** — Generate digital QR passes containing booking and ticket information for quick venue access.
+* 💬 **Real-Time Chat** — Allow attendees and organizers to communicate through Firestore-powered messaging with image attachments.
+* 🔔 **Notifications** — Deliver booking confirmations, event announcements, schedule updates, and activity notifications.
+* 🏢 **Event Management** — Allow organizers to create, edit, schedule, and cancel events with Cloudinary-powered image uploads.
+* 📊 **Analytics Dashboard** — Track revenue, ticket sales, active events, check-ins, and attendee activity through visual charts.
+* 📷 **QR Check-In** — Scan and validate tickets using the device camera while preventing duplicate check-ins.
+* 👥 **Attendance Management** — Review attendees, search booking records, communicate with attendees, and perform manual check-ins.
+* 🔐 **Authentication** — Support Email/Password, Google, and Facebook authentication with role-based navigation.
+* 📱 **Multi-Device Sessions** — Manage authenticated user sessions across multiple devices.
 
-#### 🏢 Organizer Suite
+### 🛠️ Built With
 
-- **Event creation studio** - Organizers can create, edit, schedule, and cancel events with cover image upload and cropping powered by Cloudinary.
-- **Multi-tier ticket configuration** - Event creators can define ticket names, prices, and seat allocations for different audience needs.
-- **Analytics dashboard** - Visual charts provide insight into revenue, ticket sales, check-in completion, active events, and recent attendee bookings.
-- **High-speed QR check-in** - The built-in camera scanner validates tickets against Firestore records and prevents duplicate check-ins.
-- **Attendance management** - Organizers can review checked-in and pending attendees, search attendee records, communicate directly, and perform manual check-ins when needed.
+**Architecture:** MVVM + Provider
 
-#### 🔐 Authentication & Architecture
-
-Evanto supports email/password, Google, and Facebook authentication, role-based routing for attendee and organizer experiences, and multi-device session management. The app follows Feature-First Clean Architecture with Provider and MVVM, keeping the codebase scalable, maintainable, and testable.
-
-#### ✨ What Makes Evanto Stand Out
-
-- **Smart event discovery** - Curated feeds, live search, popular organizer spotlights, and category carousels make it simple to find the right experience.
-- **Location-aware exploration** - OpenStreetMap, GPS discovery, and interactive event pins help attendees discover what is happening around them.
-- **Flexible ticketing flow** - Multiple ticket tiers, live availability, quantity controls, price calculations, booking confirmation, and digital QR passports are all part of one seamless flow.
-- **Real-time communication** - Firestore-powered messaging connects attendees and organizers instantly, including image attachments stored through Cloudinary.
-- **Organizer-focused insights** - A visual analytics dashboard surfaces revenue, sales volume, event activity, and check-in completion so organizers can make informed decisions.
-- **Fast, reliable check-in** - Built-in camera scanning validates tickets against Firestore records and prevents duplicate entries at the door.
-- **Secure, personalized access** - Email/password, Google, and Facebook authentication combine with role-based navigation and multi-device session management.
-- **Always in the loop** - Firebase Cloud Messaging and local notifications keep users informed about bookings, announcements, and schedule changes.
-
-#### 🛠️ Built With
-
-`Flutter` `Dart` `Firebase Auth` `Cloud Firestore` `Firebase Cloud Messaging` `Cloudinary` `Provider` `MVVM` `GoRouter` `GetIt` `Injectable` `Hive` `OpenStreetMap` `flutter_map` `geolocator` `mobile_scanner` `qr_flutter` `fl_chart`
+`Flutter` `Dart` `Firebase Auth` `Cloud Firestore` `Firebase Cloud Messaging` `Cloudinary` `Provider` `GoRouter` `Hive` `flutter_map` `geolocator` `mobile_scanner` `qr_flutter` `fl_chart`
 
 <div align="center">
 
-[![View Evanto](https://img.shields.io/badge/Explore_Evanto-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omar-Yasser-Mohamed/Evanto)
+[![View Evanto](https://img.shields.io/badge/Explore_Evanto-6C63FF?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Omar-Yasser-Mohamed/Evanto)
 
 </div>
 
@@ -200,44 +185,34 @@ Evanto supports email/password, Google, and Facebook authentication, role-based 
 
 <br>
 
-> A mobile guide designed to help users discover places, explore destinations, and navigate meaningful experiences with a clear and intuitive interface.
+> A tourism platform that connects tourists with local guides and provides tools for discovering places, booking tours, communicating, and exploring Egypt.
 
-GuideMe is a smart tourism platform that connects tourists with local guides across Egypt. The development branch brings together secure authentication, guide discovery, bookings, events, heritage places, interactive maps, notifications, and real-time communication in one cross-platform Flutter experience. It is designed to make exploring Egypt safer, more personal, and easier to organize for both tourists and guides.
+GuideMe is a cross-platform Flutter application designed around the complete tourism journey, supporting tourists, guides, and administrators with role-based experiences.
 
-#### ✨ Project Highlights
+### ✨ Highlights
 
-- **Tourism marketplace** - Connect tourists searching for authentic experiences with local guides who can offer personalized tours.
-- **Role-based experience** - Tailor the application for tourists, guides, and administrators with role-specific flows and permissions.
-- **Complete travel journey** - Cover discovery, guide verification, booking, payment arrangements, communication, ratings, and post-trip feedback.
-- **Egypt-focused exploration** - Showcase local guides, tourism events, and heritage places across Egypt.
+* 🧭 **Guide Marketplace** — Discover and compare local guides based on language, pricing, ratings, and tour type.
+* 👤 **Guide Profiles** — View guide experience, languages, tour details, pricing, ratings, and verification status.
+* 🛡️ **Guide Verification** — Support guide onboarding, document submission, and verification workflows.
+* 📅 **Tour Booking** — Book guides by selecting preferred dates and tour duration.
+* 💵 **Cash Payment** — Support offline cash payment when tourists meet their guides.
+* ⭐ **Ratings & Reviews** — Rate guides after completed tours and build their reputation through feedback.
+* 🏛️ **Tourism Discovery** — Explore tourism events, heritage places, and destinations across Egypt.
+* 🗺️ **Interactive Maps** — Discover nearby guides and places using map and location services.
+* 💬 **Real-Time Communication** — Chat with guides through text, image sharing, and live location.
+* 🔔 **Notifications** — Keep tourists and guides updated through push notifications.
+* 🌐 **Multilingual Experience** — Support Arabic and English for a more accessible experience.
+* 🔐 **Secure Authentication** — Support JWT authentication and Google Sign-In.
 
-#### 👤 Tourist Experience
+### 🛠️ Built With
 
-- **Secure account access** - Support registration, login, Google Sign-In, JWT-based authentication, and Arabic/English language selection.
-- **Guide discovery** - Browse local guides and compare profiles using information such as language, price, rating, and tour type.
-- **Guide profile transparency** - View verified guide profiles and the documents or verification status associated with their accounts.
-- **Flexible booking** - Book a guide by selecting the desired date and tour duration.
-- **Cash payment workflow** - Support offline cash payment when the tourist meets the guide.
-- **Ratings and feedback** - Rate the guide after completing a tour, with ratings reflected in the guide profile.
-- **Events and heritage places** - Discover tourism events, join activities, and explore heritage places with names, addresses, images, and short videos.
-- **Interactive maps** - View places and nearby guides on a map, search locations, and select locations for tourism experiences.
+**Architecture:** Feature-first Clean Architecture + BLoC/Cubit
 
-#### 🧑‍🏫 Guide Experience
-
-- **Guide onboarding and verification** - Submit account details and documents for review before becoming a verified guide.
-- **Profile management** - Maintain a public guide profile containing relevant experience, languages, tour details, pricing, and ratings.
-- **Booking management** - Receive and manage tourist booking requests based on dates and tour duration.
-- **Direct communication** - Communicate with tourists through real-time text chat, images, and live location sharing.
-- **Reputation building** - Collect tourist ratings and feedback that update the guide's profile over time.
-- **Location-aware discovery** - Make guide availability and nearby discovery more useful through map and location services.
-
-#### 🛠️ Built With
-
-`Flutter` `Dart` `flutter_bloc` `Dio` `REST API` `Firebase Core` `Firebase Auth` `Firebase Cloud Messaging` `Google Sign-In` `JWT` `Socket.IO` `flutter_map` `Google Maps API` `geolocator` `latlong2` `Hive CE` `Hive CE Flutter` `flutter_secure_storage` `connectivity_plus` `dio_cache_interceptor` `dio_cache_interceptor_file_store` `path_provider` `cached_network_image` `go_router` `flutter_localizations` `intl` `get_it` `injectable` `dartz` `flutter_svg` `pinput` `flutter_credit_card` `syncfusion_flutter_sliders` `syncfusion_flutter_datepicker` `linear_date_picker` `dropdown_search` `file_picker` `image_picker` `lottie` `percent_indicator` `shimmer` `dotted_border` `url_launcher` `logger` `Poppins` `Inter` `Montserrat` `flutter_native_splash` `flutter_launcher_icons` `build_runner` `hive_ce_generator` `injectable_generator`
+`Flutter` `Dart` `flutter_bloc` `Dio` `REST API` `Firebase Auth` `Firebase Cloud Messaging` `Google Sign-In` `Socket.IO` `flutter_map` `geolocator` `Hive CE` `flutter_secure_storage` `connectivity_plus` `cached_network_image` `go_router` `flutter_localizations` `intl` `get_it` `injectable` `dartz`
 
 <div align="center">
 
-[![View GuideMe](https://img.shields.io/badge/Explore_GuideMe-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdalla-Ahmed-Aly/GuideMe)
+[![View GuideMe](https://img.shields.io/badge/Explore_GuideMe-6C63FF?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Abdalla-Ahmed-Aly/GuideMe)
 
 </div>
 
@@ -248,28 +223,32 @@ GuideMe is a smart tourism platform that connects tourists with local guides acr
 
 <br>
 
-> A modern shopping application that gives users a smooth way to browse products, discover offers, and complete their online shopping journey.
+> A modern Flutter e-commerce application focused on product discovery, shopping, secure authentication, and a smooth checkout experience.
 
-Marketi is a Flutter-based e-commerce experience focused on making product discovery and purchasing simple on mobile. It combines a feature-first Clean Architecture codebase with a REST API, local caching, secure authentication storage, multi-language support, cart and wishlist flows, and checkout capabilities.
+Marketi combines a feature-first Clean Architecture codebase with a REST API, local caching, secure token storage, and a complete shopping workflow.
 
-#### ✨ Key Features
+### ✨ Highlights
 
-- **Product catalog and discovery** - Browse products, categories, and brands through a connected e-commerce API.
-- **Cart and wishlist management** - Save products, manage quantities, and keep shopping data available through local caching.
-- **Authentication and profiles** - Support account flows with bearer-token authentication, secure token storage, and profile management.
-- **Checkout and payments** - Handle orders and open Stripe checkout through an embedded WebView experience.
-- **Connectivity-aware networking** - Use Dio, request logging, authorization interceptors, timeouts, and connectivity checks for more reliable API communication.
-- **Maps and delivery location** - Use Flutter Map, OpenStreetMap, Nominatim reverse geocoding, geolocator, and latlong2 for location features.
-- **Localized interface** - Support Arabic and English through Flutter localization and Intl, with Poppins typography.
-- **Polished mobile UI** - Include SVG assets, carousels, page indicators, shimmer loading states, cached network images, and PIN input components.
+* 🛍️ **Product Discovery** — Browse products, categories, and brands through an e-commerce REST API.
+* 🛒 **Cart Management** — Add products, manage quantities, and keep shopping data available through local caching.
+* ❤️ **Wishlist** — Save favorite products for quick access while browsing.
+* 🔐 **Secure Authentication** — Handle bearer-token authentication with secure token storage and profile management.
+* 💳 **Checkout & Payments** — Complete orders and launch Stripe checkout through an embedded WebView.
+* 🌐 **Reliable Networking** — Use Dio with authorization interceptors, request logging, timeouts, and connectivity handling.
+* 📍 **Delivery Location** — Select delivery locations using OpenStreetMap, Nominatim reverse geocoding, and geolocation services.
+* 🌎 **Localization** — Support Arabic and English through Flutter localization and Intl.
+* 🖼️ **Cached Images** — Improve image loading performance with cached network images.
+* ✨ **Polished UI** — Include shimmer loading states, carousels, SVG assets, page indicators, and PIN input components.
 
-#### 🛠️ Built With
+### 🛠️ Built With
 
-`Flutter` `Dart` `flutter_bloc` `Cubit` `Dio` `REST API` `Hive` `hive_flutter` `flutter_secure_storage` `connectivity_plus` `go_router` `flutter_map` `OpenStreetMap` `Nominatim` `latlong2` `geolocator` `webview_flutter` `flutter_svg` `carousel_slider` `smooth_page_indicator` `shimmer` `cached_network_image` `pinput` `flutter_localizations` `intl` `Clean Architecture` `dartz` `get_it` `injectable` `build_runner` `flutter_launcher_icons` `flutter_native_splash`
+**Architecture:** Feature-first Clean Architecture + BLoC/Cubit
+
+`Flutter` `Dart` `flutter_bloc` `Dio` `REST API` `Hive` `flutter_secure_storage` `webview_flutter` `flutter_map` `geolocator` `go_router` `flutter_localizations` `intl` `cached_network_image` `get_it` `injectable` `dartz`
 
 <div align="center">
 
-[![View Marketi](https://img.shields.io/badge/Explore_Marketi-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omar-Yasser-Mohamed/Marketi)
+[![View Marketi](https://img.shields.io/badge/Explore_Marketi-6C63FF?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Omar-Yasser-Mohamed/Marketi)
 
 </div>
 
